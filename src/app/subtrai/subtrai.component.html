@@ -1,0 +1,8 @@
+<h3>Subtrair</h3>
+<form>
+  Número 1: <input #numero1 type="text" /><br>
+  Número 2: <input #numero2 type="text" /><br>
+  <input type="button" (click)="subtrair(numero1.value, numero2.value)" value="Subtrair" /><br><br>
+  Resultado: <input type="text" [value]="resultado"/><br>
+</form>
+<br><br>

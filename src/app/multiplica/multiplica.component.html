@@ -1,0 +1,8 @@
+<h3>Miltiplicar</h3>
+<form>
+  Número 1: <input #numero1 type="text" /><br>
+  Número 2: <input #numero2 type="text" /><br>
+  <input type="button" (click)="multiplicar(numero1.value, numero2.value)" value="Multiplicar" /><br><br>
+  Resultado: <input type="text" [value]="resultado"/><br>
+</form>
+<br><br>
